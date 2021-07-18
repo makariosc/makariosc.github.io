@@ -6,12 +6,12 @@ html {
   width: 400px;
   margin: 0 auto;
   
-  padding: 250px 0;
+  padding: 25vh 0;
   text-align: center;
   color: #E0EEC6;
   font-family: "Courier New";
   font-weight: bolder;
-  font-size: 25px;  
+  font-size: 3vh;  
 }
 
 /* Style all font awesome icons */
