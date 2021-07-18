@@ -2,6 +2,22 @@ html {
   background-color: #002b36;
 }
 
+.topbar {
+  float: right;
+  padding: 4vh;
+  padding-right: 5vw;
+}
+
+.topbar a {
+  text-align: center;
+  padding: 14px 16px;
+  color: #E0EEC6;
+
+  text-decoration: none;
+  font-family: "Courier New";
+  font-size: 1.5vh;
+}
+
 .center {
   width: 400px;
   margin: 0 auto;
@@ -15,7 +31,7 @@ html {
 }
 
 /* Style all font awesome icons */
-a {
+.icon {
   text-align: center;
   text-decoration: none;
   color:inherit;
