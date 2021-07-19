@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="listing">
+<h1>Posts</h1>
+<hr>
+<ul>
+  {% for post in site.posts %}
+  <li>
+    <div>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+</div>
