@@ -1,6 +1,6 @@
 <nav class="topbar">
-  <a href="/">contact</a>
-  <a href="/blog">blog</a>
+  <a href="/" {% if page.url == "/" %}style="font-weight: bolder;"{% endif %}>contact</a>
+  <a href="/blog" {% if page.url == "/blog.html" %}style="font-weight: bolder;"{% endif %}>blog</a>
 <!--   <a>portfolio</a> -->
   <a href="/makarioschung_resume.pdf">resume</a>
 </nav>
