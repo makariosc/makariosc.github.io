@@ -4,9 +4,6 @@ title: "Cantonese-English Translation: A Cruel Angel's Thesis"
 date: 2021-07-19 21:00:00 +08:00
 ---
 
-
-So, something interesting I've noticed 
-
 I recently finished watching _Neon Genesis Evangelion_, and as anyone who's watched _Eva_ will know, the OP, "A Cruel Angel's Thesis", is a bop. While looking at various covers of this song (by [military bands](https://www.youtube.com/watch?v=aXjIy0XQGi4), [pianos](https://www.youtube.com/watch?v=aYe-2Glruu4), and [bike horns](https://www.youtube.com/watch?v=SUamHEvVQy0&t=73s)), I stumbled upon this Cantonese cover. Truth be told, I thought this was official version at first, but a bit of digging (thank you, Google Translate) revealed that it's actually a fandub written by one "野火大鴻".
 <div class="video-container">
   <iframe src="https://www.youtube.com/embed/6H4BQSMCZ3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
