@@ -1,0 +1,15 @@
+body {
+  overflow: hidden; /* Hide scrollbars */
+}
+
+.greeting {
+  font-family: sans-serif;
+  font-size: 50px;
+
+  text-align: center;
+  margin-top: 35vh;
+}
+
+#thankyou {
+  display: none;
+}
