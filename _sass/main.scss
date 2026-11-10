@@ -97,3 +97,30 @@ html {
 .column {
   flex: 50%;
 }
+/* tables in posts: wider than the text column, compact, and scroll sideways rather than overflow */
+.listing table {
+  display: block;
+  overflow-x: auto;
+  border-collapse: collapse;
+  font-size: 80%;
+  width: 60vw;
+  margin: 3vh -10vw;
+}
+
+@media (max-width: 800px) {
+  .listing table {
+    width: auto;
+    margin: 3vh 0;
+  }
+}
+
+.listing th, .listing td {
+  border: 1px solid rgba(224, 238, 198, 0.3);
+  padding: 6px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.listing th {
+  background-color: rgba(224, 238, 198, 0.08);
+}
