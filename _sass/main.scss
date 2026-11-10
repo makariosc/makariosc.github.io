@@ -124,3 +124,25 @@ html {
 .listing th {
   background-color: rgba(224, 238, 198, 0.08);
 }
+
+/* figures in posts: as wide as the tables, with a small centred caption underneath */
+.listing p img {
+  display: block;
+  width: 60vw;
+  max-width: none;
+  margin: 3vh -10vw 0;
+}
+
+.listing .caption {
+  font-size: 85%;
+  opacity: 0.8;
+  text-align: center;
+  margin-top: 1vh;
+}
+
+@media (max-width: 800px) {
+  .listing p img {
+    width: 100%;
+    margin: 3vh 0 0;
+  }
+}
