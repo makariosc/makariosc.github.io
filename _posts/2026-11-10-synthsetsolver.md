@@ -12,6 +12,8 @@ Try it! [https://makariosc.github.io/setsolver](https://makariosc.github.io/sets
 
 I used Claude to create a synthetic data generator that renders Set cards on different surfaces with lighting glare, shadows, and a variety of augmentations, backgrounds and distractors. The result? A Set detector that works better than any other open-source alternative I could find on the internet.
 
+---
+
 I once tried creating a Set card detector using classical CV methods. After wasting a week messing around with Otsu thresholding, Canny edge detection, and all manner of pixel value normalizations, I ended up with a half-baked card detector that worked under nominal conditions, but was temperamental and prone to breaking.
 
 ![Classical CV pipeline on a neat table and on a close-up](/assets/synthsetsolver/classical-cv.jpg)
@@ -41,6 +43,8 @@ _Before and after adding steep camera angles, on a held-out synthetic scene shot
 {: .caption}
 
 ## Evaluation and Model Comparisons
+
+---
 
 Naturally, since the training and testing data are both created from the same scene generator, the pipeline scores 99.9% accuracy on the held-out synthetic data.
 
@@ -76,5 +80,7 @@ _Share of cards found and read correctly by each detector, on my real test photo
 {: .caption}
 
 ## Conclusions
+
+---
 
 I understand that this isn't much more than a toy example, especially when compared to the recent slew of vibe-mathed solutions to decades-old problems (Set cards are rather distinct, after all, and very regular in appearance). However, the ability to use AI, and AI generated tools, to achieve such results in less than a week on even just a toy example is very encouraging. I'm excited to continue playing with these new tools to see what I can learn with them.

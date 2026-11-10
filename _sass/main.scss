@@ -131,6 +131,7 @@ html {
   width: 60vw;
   max-width: none;
   margin: 3vh -10vw 0;
+  border-radius: 6px;
 }
 
 .listing .caption {
@@ -145,4 +146,14 @@ html {
     width: 100%;
     margin: 3vh 0 0;
   }
+}
+
+/* post text: JetBrains Mono reads more easily than Courier New in long paragraphs; the title keeps the site's Courier */
+.post {
+  font-family: "JetBrains Mono", "Courier New", monospace;
+  line-height: 1.8;
+}
+
+.post h1 {
+  font-family: "Courier New", monospace;
 }
