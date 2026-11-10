@@ -8,6 +8,8 @@ _Solving detection for Set cards with synthetic data_
 
 I used Claude to create a synthetic data generator that renders Set cards on different surfaces with various augmentations: lighting glare, shadows, and a variety of other augmentations, backgrounds and distractors. The result? The best open-source Set detector on the internet, better than any other open-source alternatives I could find.
 
+You can try it yourself at [makariosc.github.io/setsolver](https://makariosc.github.io/setsolver): take a photo of the cards on the table and it finds the sets, right in your browser.
+
 I once tried creating a Set card detector using classical CV methods. After wasting a week messing around with Otsu thresholding, Canny edge detection, and all manner of pixel value normalizations, I ended up with a half-baked card detector that worked under nominal conditions, but broke the moment I actually needed it to work.
 
 It became clear that ML would be the most straightforward way to build a detector robust enough to actually deal with real world conditions – that is, something able to detect cards under annoyances such as shadows, overlapping cards, and cluttered dining tables. But gathering (and more importantly, labelling) the thousands of images needed to train a detector would be impossible by myself.
@@ -20,7 +22,7 @@ The flexibility of generating my own scenes quickly paid dividends when, after s
 
 Naturally, since the training and testing data are both created from the same scene generator, the pipeline scores 99.9% accuracy on the held-out synthetic data.
 
-However, the model also achieves 100% (!) accuracy on a dataset I put together from real-life photos sourced from myself as well as online). The dataset contains 37 photos, with a total of 449 individual cards in the entire dataset. Two of the photos in this dataset are images of the entire deck laid out on a table. Labels were first proposed by my model and then hand-checked myself, card-by-card. This dataset includes a variety of scenes with shadows, light glare, and card occlusions. Instructions on recreating this dataset can be found [here](https://github.com/makariosc/SynthSetSolver#test-set).
+However, the model also achieves 100% (!) accuracy on a dataset I put together from real-life photos sourced from myself as well as online. The dataset contains 37 photos, with a total of 449 individual cards in the entire dataset. Two of the photos in this dataset are images of the entire deck laid out on a table. Labels were first proposed by my model and then hand-checked myself, card-by-card. This dataset includes a variety of scenes with shadows, light glare, and card occlusions. Instructions on recreating this dataset can be found [here](https://github.com/makariosc/SynthSetSolver#test-set).
 
 As a point of comparison, I also did a search online for a number of other open-source alternatives. Interestingly enough, a model trained completely on rendered synthetic data works significantly better on real-life data than the alternatives – even ML alternatives trained on real-life data. It's natural that these examples won't perform as well on the held-out synthetic scenes, but we see that synthetic data provides an edge on real-life data as well.
 
