@@ -1,14 +1,13 @@
 ---
 layout: post
 title: "SynthSetSolver"
+subtitle: "Solving detection for Set cards with synthetic data"
 date: 2026-11-10 00:00:00 +00:00
 ---
 
-_Solving detection for Set cards with synthetic data_
+Try it! [https://makariosc.github.io/setsolver](https://makariosc.github.io/setsolver)
 
 Github: [https://github.com/makariosc/SynthSetSolver](https://github.com/makariosc/SynthSetSolver)
-
-Try it! [https://makariosc.github.io/setsolver](https://makariosc.github.io/setsolver)
 
 I used Claude to create a synthetic data generator that renders Set cards on different surfaces with lighting glare, shadows, and a variety of augmentations, backgrounds and distractors. The result? A Set detector that works better than any other open-source alternative I could find on the internet.
 
