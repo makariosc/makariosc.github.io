@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SynthSetSolver"
-date: 2026-11-10 12:00:00 -05:00
+date: 2026-11-10 00:00:00 +00:00
 ---
 
 _Solving detection for Set cards with synthetic data_
